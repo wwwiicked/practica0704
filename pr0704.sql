@@ -119,7 +119,6 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `login`, `email`, `password`, `created_at`) VALUES
 (1, 'soni', 'ssonyasoloveva@gmail.com', '1111', '2025-04-08 21:23:28'),
 (2, 'admin', 'ssqw@gmail.com', '123', '2025-04-09 07:07:59'),
-(3, 'olga', 'dnwforh@kjasd.com', '1236', '2025-04-09 07:17:18'),
 (5, 'sonii', 'jhvefjwh@fjkg.com', '11', '2025-04-09 08:59:39');
 
 --
