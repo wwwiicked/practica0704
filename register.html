@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h2>Регистрация</h2>
+      <p>Мы система учета товаров на складе!</p>
+      <form action="src/registration.php" method="post">
+        <input type="text" id="login" name="login" placeholder="Логин" required />
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        <input type="password" id="password" name="password" placeholder="Пароль" required />
+        <button type="submit">Зарегистрироваться</button>
+      </form>
+      <p class="signup-link">Уже есть аккаунт? <a href="login.html">Войти</a></p>
+    </div>
+    <div class="image-section">
+      <img src="assets/img/research.png" alt="Illustration">
+    </div>
+  </div>
+</body>
+</html>
